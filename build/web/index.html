@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Чат</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="websocket.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div>
+            <form id = "addMessageForm"> 
+                <input type="text" id = "message"/>
+                <!--Можно попробовать ещё вот так
+                    <a href = "#" OnClick="showForm()">Отправить сообщение</a>
+                -->
+                <input type="button" class="button" value="Отправить сообщение" onclick=formSubmit()>
+            </form>
+        </div>
+        <div id = "messages"></div>
+    </body>
+</html>

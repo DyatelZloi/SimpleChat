@@ -1,0 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11.05.2016, 16:35:23
+    Author     : DiZi
+*/
+
+#content {
+    margin: auto;
+    width: 960px;
+}
+
+.button:hover {
+    background-color: #ffb15e;
+}
+.button a, a:visited, a:hover, a:active {
+    color: #fff;
+    text-decoration: none;
+}
